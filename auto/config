@@ -22,5 +22,4 @@ lb config noauto \
     --mirror-debian-installer "$debian_mirror" \
     --mirror-binary "$debian_mirror" \
     --apt-indices false \
-    --bootappend-live "boot=live components modprobe.blacklist=nouveau" \
     "${@}"
