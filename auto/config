@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+debian_mirror = "http://deb.debian.org/debian";
+lb config noauto \
+    --mode debian \
+    --architectures amd64 \
+    --distribution stretch \
+    --linux-packages "linux-image" \
+    --debian-installer false \
+    --firmware-chroot true \
+    --firmware-binary true \
+    --archive-areas "main contrib non-free" \
+    --parent-archive-areas "main contrib non-free" \
+    --parent-mirror-bootstrap "$debian_mirror" \
+    --parent-mirror-binary "$debian_mirror" \
+    --iso-application "HHVM_LIVE" \
+    --iso-publisher "yanicky" \
+    --iso-volume "CUDA LIVE" \
+    --mirror-chroot "$debian_mirror" \
+    --mirror-bootstrap "$debian_mirror" \
+    --mirror-debian-installer "$debian_mirror" \
+    --mirror-binary "$debian_mirror" \
+    --apt-indices false \
+    --bootappend-live "boot=live components modprobe.blacklist=nouveau" \
+    "${@}"
