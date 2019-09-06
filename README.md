@@ -6,4 +6,4 @@ Live-build config files for CUDA-LIVE
 ``` lb clean; lb build; ```
 
 ### Troubleshooting
-Test shown that on some system the onboard GPU(ie: intel) as to be disabled in the BIOS for the Nvidia GPU to boot properly.
+Test shown that on some systems, the onboard GPU(ie: intel) as to be disabled in the BIOS for the Nvidia GPU to boot properly.
