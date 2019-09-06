@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e
-debian_mirror = "http://deb.debian.org/debian";
+
 lb config noauto \
     --mode debian \
     --architectures amd64 \
@@ -11,15 +11,16 @@ lb config noauto \
     --firmware-chroot true \
     --firmware-binary true \
     --archive-areas "main contrib non-free" \
-    --parent-archive-areas "main contrib non-free" \
-    --parent-mirror-bootstrap "$debian_mirror" \
-    --parent-mirror-binary "$debian_mirror" \
-    --iso-application "HHVM_LIVE" \
+    --iso-application "CUDA_LIVE" \
     --iso-publisher "yanicky" \
     --iso-volume "CUDA LIVE" \
-    --mirror-chroot "$debian_mirror" \
-    --mirror-bootstrap "$debian_mirror" \
-    --mirror-debian-installer "$debian_mirror" \
-    --mirror-binary "$debian_mirror" \
+    --parent-archive-areas "main contrib non-free" \
+    --parent-mirror-bootstrap "http://deb.debian.org/debian" \
+    --parent-mirror-binary "http://deb.debian.org/debian" \
+    --mirror-chroot "http://deb.debian.org/debian" \
+    --mirror-bootstrap "http://deb.debian.org/debian" \
+    --mirror-debian-installer "http://deb.debian.org/debian" \
+    --mirror-binary "http://deb.debian.org/debian" \
     --apt-indices false \
+    --bootappend-live "boot=live components modprobe.blacklist=nouveau" \
     "${@}"
