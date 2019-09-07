@@ -1,5 +1,5 @@
 # CUDA-LIVE
-Config Files for creating Live-build Debian(stretch) bootable ISO for CUDA-8.x(Nvidia)
+Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nvidia)
 
 ```sh auto/config; sudo lb clean; sudo lb build; ```
 
