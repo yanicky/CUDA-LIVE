@@ -29,7 +29,7 @@ use the following commands in the base directory to build the iso
 
 ```sh auto/config; sudo lb clean; sudo lb build;```
 
-Creating a iso file named live-image-amd64.hybrid.iso.
+Creating a iso file named live-image-amd64.hybrid.iso of about 2GB.
 
 ### Tested For [CUDA](https://developer.nvidia.com/cuda-zone) parallel computing with:
 * [Boinc](https://boinc.berkeley.edu/)
