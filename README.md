@@ -10,6 +10,27 @@ Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nv
 * boinc-client-nvidia-cuda
 * boinc-manager
 
+### Requirement
+* git
+* live-build
+
+``` sudo apt-get update;```
+
+``` sudo apt-get install git live-build;```
+
+### Installation
+
+``` git clone https://github.com/yanicky/CUDA-LIVE;```
+
+### Building the bootable ISO image
+use the following commands in the base directory to build the iso
+
+``` cd CUDA-LIVE;```
+
+```sh auto/config; sudo lb clean; sudo lb build;```
+
+Creating a iso file named live-image-amd64.hybrid.iso.
+
 ### Tested For [CUDA](https://developer.nvidia.com/cuda-zone) parallel computing with:
 * [Boinc](https://boinc.berkeley.edu/)
 * [ethminer 0.18.0](https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0) for CUDA-9
