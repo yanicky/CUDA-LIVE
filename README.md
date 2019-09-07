@@ -32,10 +32,10 @@ use the following commands in the base directory to build the iso
 Creating a iso file named live-image-amd64.hybrid.iso of about 2GB.
 
 ### Tested For [CUDA](https://developer.nvidia.com/cuda-zone) parallel computing with:
-* [Boinc](https://boinc.berkeley.edu/)
-* [ethminer 0.18.0](https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0) for CUDA-9
+* [Boinc](https://boinc.berkeley.edu/) (included)
+* [ethminer 0.18.0](https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0) for CUDA-9 (not included)
 * [Claymore-Dual-Miner 15.0
-](https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/tag/15.0)
+](https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/tag/15.0) (not included)
 
 ### Troubleshooting
 * (UEFI)Secure Boot need to be disabled since it's not configured in the live-build config and will require user bios configuration to work.
