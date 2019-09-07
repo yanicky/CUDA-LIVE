@@ -5,7 +5,7 @@ set -e
 lb config noauto \
     --mode debian \
     --architectures amd64 \
-    --distribution stretch \
+    --distribution buster \
     --linux-packages "linux-image" \
     --debian-installer false \
     --firmware-chroot true \
