@@ -1,0 +1,10 @@
+linux-perf
+firmware-realtek
+software-properties-common
+apt-transport-https
+ca-certificates
+curl
+gnupg2
+zip
+unzip
+screen
