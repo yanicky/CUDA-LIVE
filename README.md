@@ -1,7 +1,7 @@
 # CUDA-LIVE
 Config Files for creating Live-build Debian(stretch) bootable ISO for CUDA-8.x(Nvidia)
 
-```sh auto/config; lb clean; lb build; ```
+```sh auto/config; sudo lb clean; sudo lb build; ```
 
 ### Features
 * boinc-client-nvidia-cuda
