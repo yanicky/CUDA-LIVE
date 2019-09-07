@@ -1,9 +1,7 @@
 # CUDA-LIVE
 Config Files for creating Live-build Debian(stretch) bootable ISO for CUDA-8.x(Nvidia)
 
-``` lb config --bootappend-live "boot=live components modprobe.blacklist=nouveau"; ```
-
-``` lb clean; lb build; ```
+```sh auto/config; lb clean; lb build; ```
 
 ### Features
 * boinc-client-nvidia-cuda
