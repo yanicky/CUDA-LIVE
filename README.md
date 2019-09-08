@@ -1,5 +1,5 @@
 # CUDA-LIVE
-Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nvidia)
+Config Files for creating [Live](https://live-team.pages.debian.net/live-manual/html/live-manual/about-project.en.html#76) Debian(buster) bootable ISO for CUDA-9.x(Nvidia)
 
 ### Features
 * nvidia-driver
