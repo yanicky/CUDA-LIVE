@@ -11,6 +11,7 @@ Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nv
 * boinc-manager
 
 ### Requirement
+* [CUDA-Enabled](https://developer.nvidia.com/cuda-gpus#compute) GPU[s] supported by CUDA-9.x(Nvidia)
 * git
 * live-build
 
