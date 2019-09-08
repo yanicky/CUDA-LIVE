@@ -13,7 +13,7 @@ lb config noauto \
     --archive-areas "main contrib non-free" \
     --iso-application "CUDA_LIVE" \
     --iso-publisher "yanicky" \
-    --iso-volume "CUDA LIVE" \
+    --iso-volume "CUDA_LIVE" \
     --parent-archive-areas "main contrib non-free" \
     --parent-mirror-bootstrap "http://deb.debian.org/debian" \
     --parent-mirror-binary "http://deb.debian.org/debian" \
