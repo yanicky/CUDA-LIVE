@@ -1,8 +1,6 @@
 # CUDA-LIVE
 Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nvidia)
 
-```sh auto/config; sudo lb clean; sudo lb build; ```
-
 ### Features
 * nvidia-driver
 * nvidia-cuda-toolkit
@@ -19,14 +17,14 @@ Config Files for creating Live-build Debian(buster) bootable ISO for CUDA-9.x(Nv
 
 ``` sudo apt-get install git live-build;```
 
-### Installation
+### Installation methods
 
-``` git clone https://github.com/yanicky/CUDA-LIVE;```
+1. (recommended) ``` git clone https://github.com/yanicky/HHVM-LIVE; cd HHVM-LIVE;```
+``` ```
+2. (other) ``` mkdir HHVM-LIVE; cd HHVM-LIVE; lb config --config=https://github.com/yanicky/HHVM-LIVE```
 
 ### Building the bootable ISO image
 use the following commands in the base directory to build the iso
-
-``` cd CUDA-LIVE;```
 
 ```sh auto/config; sudo lb clean; sudo lb build;```
 
