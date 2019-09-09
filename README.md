@@ -19,9 +19,9 @@ Config Files for creating [Live](https://live-team.pages.debian.net/live-manual/
 
 ### Installation methods
 
-1. (recommended) ``` git clone https://github.com/yanicky/HHVM-LIVE; cd HHVM-LIVE;```
+1. (recommended) ``` git clone https://github.com/yanicky/CUDA-LIVE; cd CUDA-LIVE;```
 ``` ```
-2. (other) ``` mkdir HHVM-LIVE; cd HHVM-LIVE; lb config --config=https://github.com/yanicky/HHVM-LIVE```
+2. (other) ``` mkdir CUDA-LIVE; cd CUDA-LIVE; lb config --config=https://github.com/yanicky/CUDA-LIVE```
 
 ### Building the bootable ISO image
 use the following commands in the base directory to build the iso
