@@ -9,9 +9,9 @@ Config Files for creating [Live](https://live-team.pages.debian.net/live-manual/
 * boinc-manager
 
 ### Requirement
-* [CUDA-Enabled](https://developer.nvidia.com/cuda-gpus#compute) GPU[s] supported by CUDA-9.x(Nvidia)
-* git
-* live-build
+* [CUDA-Enabled](https://developer.nvidia.com/cuda-gpus#compute) GPU[s] supported by CUDA-9.x(Nvidia) (target)
+* git (build)
+* live-build (build)
 
 ``` sudo apt-get update;```
 
@@ -37,5 +37,5 @@ Creating a iso file named live-image-amd64.hybrid.iso of about 2GB.
 ](https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/tag/15.0) (not included)
 
 ### Troubleshooting
-* (UEFI)Secure Boot need to be disabled since it's not configured in the live-build config and will require user bios configuration to work.
+* (UEFI)Secure Boot need to be disabled since it's not configured in the live-build config and will require user bios configuration to work on some system.
 * (nvidia-driver)Test shown that on some systems, the onboard GPU(ie: intel) need to be disabled in the BIOS for the Nvidia GPU to boot properly.
